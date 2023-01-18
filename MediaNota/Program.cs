@@ -14,7 +14,7 @@ namespace MediaNota
             Console.WriteLine("Digite a segunda nota: ");
             nota2 = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            media = nota1 * 3.5 + nota2 * 7.5 / 11;
+            media = ((nota1 * 3.5) + (nota2 * 7.5)) / 11;
 
             Console.WriteLine("MEDIA DAS NOTAS = " + media.ToString("F5", CultureInfo.InvariantCulture));
 
